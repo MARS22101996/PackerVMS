@@ -1,0 +1,8 @@
+set bridged mode
+hostname -I
+sudo chmod +x start.sh
+sudo chmod +x register.sh
+change fabio.properties in /services/fabio hostname -I
+sudo mount -t vboxsf Public ~/Public
+sudo apt-get install virtualbox-guest-x11
+cp -i worker_token ./Shared
